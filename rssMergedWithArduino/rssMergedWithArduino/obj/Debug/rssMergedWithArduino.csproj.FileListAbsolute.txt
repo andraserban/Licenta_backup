@@ -1,0 +1,15 @@
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\obj\Debug\rssMergedWithArduino.csprojResolveAssemblyReference.cache
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\obj\Debug\rssMergedWithArduino.Form1.resources
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\obj\Debug\rssMergedWithArduino.Properties.Resources.resources
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\obj\Debug\rssMergedWithArduino.csproj.GenerateResource.Cache
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\obj\Debug\rssMergedWithArduino.csproj.CoreCompileInputs.cache
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\bin\Debug\rssMergedWithArduino.exe.config
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\bin\Debug\rssMergedWithArduino.exe
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\bin\Debug\rssMergedWithArduino.pdb
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\obj\Debug\rssMergedWithArduino.exe
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\obj\Debug\rssMergedWithArduino.pdb
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\bin\Debug\EntityFramework.dll
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\bin\Debug\EntityFramework.SqlServer.dll
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\bin\Debug\EntityFramework.xml
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\bin\Debug\EntityFramework.SqlServer.xml
+F:\Facultate ACE\AN IV\Licenta\rssMergedWithArduino\rssMergedWithArduino\obj\Debug\rssMergedWithArduino.Migrations.login.resources
