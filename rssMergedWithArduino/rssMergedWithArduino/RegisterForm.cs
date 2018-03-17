@@ -44,8 +44,10 @@ namespace rssMergedWithArduino
             sqlCmd_login.ExecuteNonQuery();
 
             MessageBox.Show("Registration is successfull");
-            
 
+            this.Hide();
+            LogInForm loginForm = new LogInForm();
+            loginForm.Show();
 
         }
     }

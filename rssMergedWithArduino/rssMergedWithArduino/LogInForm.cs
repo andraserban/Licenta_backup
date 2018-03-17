@@ -41,7 +41,11 @@ namespace rssMergedWithArduino
                    MessageBox.Show("Invalid username or password");
         }
 
- 
-
+        private void btn_register_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RegisterForm registerForm = new RegisterForm();
+            registerForm.Show();
+        }
     }
 }

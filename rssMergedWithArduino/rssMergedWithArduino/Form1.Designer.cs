@@ -39,6 +39,7 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.buttonWriteRSS = new System.Windows.Forms.Button();
             this.groupBoxRSS = new System.Windows.Forms.GroupBox();
+            this.btn_logOut = new System.Windows.Forms.Button();
             this.groupBoxLCD.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBoxRSS.SuspendLayout();
@@ -151,11 +152,22 @@
             this.groupBoxRSS.TabStop = false;
             this.groupBoxRSS.Text = "RSS";
             // 
+            // btn_logOut
+            // 
+            this.btn_logOut.Location = new System.Drawing.Point(668, 279);
+            this.btn_logOut.Name = "btn_logOut";
+            this.btn_logOut.Size = new System.Drawing.Size(75, 23);
+            this.btn_logOut.TabIndex = 11;
+            this.btn_logOut.Text = "Log Out";
+            this.btn_logOut.UseVisualStyleBackColor = true;
+            this.btn_logOut.Click += new System.EventHandler(this.btn_logOut_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(674, 305);
+            this.ClientSize = new System.Drawing.Size(755, 314);
+            this.Controls.Add(this.btn_logOut);
             this.Controls.Add(this.groupBoxRSS);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBoxLCD);
@@ -183,6 +195,7 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button buttonWriteRSS;
         private System.Windows.Forms.GroupBox groupBoxRSS;
+        private System.Windows.Forms.Button btn_logOut;
     }
 }
 

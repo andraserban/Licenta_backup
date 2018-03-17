@@ -160,5 +160,12 @@ namespace rssMergedWithArduino
             }
 
         }
+
+        private void btn_logOut_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LogInForm loginForm = new LogInForm();
+            loginForm.Show();
+        }
     }
 }
