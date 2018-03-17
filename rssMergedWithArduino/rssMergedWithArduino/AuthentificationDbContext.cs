@@ -15,5 +15,8 @@ namespace rssMergedWithArduino
         }
         public DbSet<LogInDataBase> LogInDatabases { get; set; }
 
+        public DbSet<RegisterDataBase> RegisterDatabases { get; set; }
+
+
     }
 }

@@ -1,0 +1,9 @@
+F:\Youtube Channel\Dotnet Mob\C# tutorials\user registration\project\User Registration\User Registration\bin\Debug\User Registration.exe.config
+F:\Youtube Channel\Dotnet Mob\C# tutorials\user registration\project\User Registration\User Registration\bin\Debug\User Registration.exe
+F:\Youtube Channel\Dotnet Mob\C# tutorials\user registration\project\User Registration\User Registration\bin\Debug\User Registration.pdb
+F:\Youtube Channel\Dotnet Mob\C# tutorials\user registration\project\User Registration\User Registration\obj\Debug\User Registration.csprojResolveAssemblyReference.cache
+F:\Youtube Channel\Dotnet Mob\C# tutorials\user registration\project\User Registration\User Registration\obj\Debug\User_Registration.Form1.resources
+F:\Youtube Channel\Dotnet Mob\C# tutorials\user registration\project\User Registration\User Registration\obj\Debug\User_Registration.Properties.Resources.resources
+F:\Youtube Channel\Dotnet Mob\C# tutorials\user registration\project\User Registration\User Registration\obj\Debug\User Registration.csproj.GenerateResource.Cache
+F:\Youtube Channel\Dotnet Mob\C# tutorials\user registration\project\User Registration\User Registration\obj\Debug\User Registration.exe
+F:\Youtube Channel\Dotnet Mob\C# tutorials\user registration\project\User Registration\User Registration\obj\Debug\User Registration.pdb

@@ -29,3 +29,5 @@ F:\Facultate ACE\AN IV\Licenta_backup\rssMergedWithArduino\rssMergedWithArduino\
 F:\Facultate ACE\AN IV\Licenta_backup\rssMergedWithArduino\rssMergedWithArduino\obj\Debug\rssMergedWithArduino.csproj.CoreCompileInputs.cache
 F:\Facultate ACE\AN IV\Licenta_backup\rssMergedWithArduino\rssMergedWithArduino\obj\Debug\rssMergedWithArduino.exe
 F:\Facultate ACE\AN IV\Licenta_backup\rssMergedWithArduino\rssMergedWithArduino\obj\Debug\rssMergedWithArduino.pdb
+F:\Facultate ACE\AN IV\Licenta_backup\rssMergedWithArduino\rssMergedWithArduino\obj\Debug\rssMergedWithArduino.Migrations.register.resources
+F:\Facultate ACE\AN IV\Licenta_backup\rssMergedWithArduino\rssMergedWithArduino\obj\Debug\rssMergedWithArduino.RegisterForm.resources
