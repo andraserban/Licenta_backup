@@ -18,48 +18,30 @@ namespace rssMergedWithArduino
             InitializeComponent();
         }
 
-        //Connection String
-        //  string cs = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\MyDatabase.mdf;Integrated Security=True;";
-
-        string cs = @"Data Source=ANDRA;" + "Initial Catalog=AuthenticationCodeFirst;" + "Integrated Security=SSPI;" + "providerName = System.Data.SqlCLient";
-        //btn_Submit Click event
         private void btn_Submit_Click(object sender, EventArgs e)
         {
-            if (txt_UserName.Text == "" || txt_Password.Text == "")
-            {
-                MessageBox.Show("Please provide UserName and Password");
-                return;
-            }
-            try
-            {
-                //Create SqlConnection
-                SqlConnection con = new SqlConnection(cs);
-                SqlCommand cmd = new SqlCommand("Select * from tbl_LogInDatabases where UserName=@username and Password=@password", con);
-                cmd.Parameters.AddWithValue("@username", txt_UserName.Text);
-                cmd.Parameters.AddWithValue("@password", txt_Password.Text);
-                con.Open();
-                SqlDataAdapter adapt = new SqlDataAdapter(cmd);
-                DataSet ds = new DataSet();
-                adapt.Fill(ds);
-                con.Close();
-                int count = ds.Tables[0].Rows.Count;
-                
-                if (count == 1)
-                {
-                    MessageBox.Show("Login Successful!");
-                    this.Hide();
-                    Form1 form = new Form1();
-                    form.Show();
-                }
+            SqlConnection con = new SqlConnection(@"Data Source=ANDRA;Initial Catalog=AuthenticationCodeFirst;Integrated Security=True"); // making connection   
+            SqlDataAdapter sda = new SqlDataAdapter("SELECT COUNT(*) FROM dbo.LogInDataBases WHERE username='" + txt_UserName.Text + "' AND password='" + txt_Password.Text + "'", con);
+          
+            DataTable dt = new DataTable(); //this is creating a virtual table  
+            sda.Fill(dt);
+
+              if (txt_UserName.Text == "" || txt_Password.Text == "")
+              {
+                     MessageBox.Show("Please provide username and password");
+                       return;
+               }
+               if (dt.Rows[0][0].ToString() == "1")
+               {
+             
+                this.Hide();
+                new Form1().Show();
+               }
                 else
-                {
-                    MessageBox.Show("Login Failed!");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+                   MessageBox.Show("Invalid username or password");
         }
+
+ 
+
     }
 }
