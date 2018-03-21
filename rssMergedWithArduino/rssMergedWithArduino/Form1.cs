@@ -151,11 +151,8 @@ namespace rssMergedWithArduino
                 {
                     
                     port.Write("#TEXT" + item.Title.Text + "#\n");
-                //    port.Write("#TEXT" + nullText + "#\n");
-                    for(int i=1; i<=100000;i++) { }
-
-
-
+             
+                  
                 }
             }
 
