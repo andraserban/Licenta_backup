@@ -22,7 +22,7 @@ namespace rssMergedWithArduino
         {
             if (txt_password.Text != txt_confirmPassword.Text)
             {
-                MessageBox.Show("Password do not match");
+                MessageBox.Show("Passwords do not match");
             }
                 
 
@@ -43,7 +43,7 @@ namespace rssMergedWithArduino
             sqlCmd_register.ExecuteNonQuery();
             sqlCmd_login.ExecuteNonQuery();
 
-            MessageBox.Show("Registration is successfull");
+            MessageBox.Show("Registration is successful");
 
             this.Hide();
             LogInForm loginForm = new LogInForm();
